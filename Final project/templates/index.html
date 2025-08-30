@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Main Container -->
+    <div class="container card">
+        <h1>🤖 AI Assistant</h1>
+        <form method="POST">
+            <textarea name="text" placeholder="Enter your question or text" required></textarea>
+            
+            <label>Choose Task:</label>
+            <select name="task">
+                <option value="Q&A">Q&A</option>
+                <option value="Summarize">Summarize</option>
+                <option value="Creative">Creative</option>
+                <option value="Advice">Advice</option>
+            </select>
+
+            <label>Response Length:</label>
+            <select name="length">
+                <option value="Short">Short</option>
+                <option value="Medium" selected>Medium</option>
+                <option value="Long">Long</option>
+            </select>
+
+            <button type="submit">✨ Generate</button>
+        </form>
+
+        {% if result %}
+        <div class="output card">
+            <h2>Output:</h2>
+            <p>{{ result | safe }}</p>
+
+            <form method="POST">
+                <input type="hidden" name="text" value="{{ request.form['text'] }}">
+                <input type="hidden" name="task" value="{{ request.form['task'] }}">
+                <input type="hidden" name="length" value="{{ request.form['length'] }}">
+                <label>Was this helpful?</label>
+                <button type="submit" name="feedback" value="Yes">👍 Yes</button>
+                <button type="submit" name="feedback" value="No">👎 No</button>
+            </form>
+        </div>
+        {% endif %}
+
+        {% if feedback_message %}
+        <p class="feedback">{{ feedback_message }}</p>
+        {% endif %}
+    </div>
+
+    <!-- Particles.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="{{ url_for('static', filename='particles-config.js') }}"></script>
+</body>
+</html>
