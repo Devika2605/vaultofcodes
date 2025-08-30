@@ -1,0 +1,24 @@
+Feedback - Vault of Codes Internship Project
+
+Working on this project was a great learning experience. I got hands-on practice with Python, 
+Tkinter for GUI design, and external libraries like Wikipedia API. I also improved my problem-solving 
+skills while fixing installation issues and debugging errors.
+
+Challenges:
+- Faced issues with pip and multiple Python versions.
+- Needed to experiment with both console and GUI versions of the assistant.
+- Had to learn how to style Tkinter windows for a modern look.
+
+Learning Outcomes:
+- Learned to design a menu-driven assistant in Python.
+- Gained experience in creating a Tkinter-based graphical interface.
+- Understood how to integrate external libraries and APIs.
+- Improved my debugging and troubleshooting skills.
+
+Future Scope:
+- Adding speech recognition so users can talk to the assistant.
+- Adding a chatbot-like interface.
+- Deploying it as a simple web application using Flask or Streamlit.
+
+Overall, I really enjoyed building this AI Assistant and it helped me 
+strengthen both my coding and project development skills.
