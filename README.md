@@ -22,7 +22,7 @@ Prompt Sets: commands.md with predefined prompt variations
 
 📂 Project Structure
 
-Final_Project/
+Final_Project/ <br>
 |── ai_assistance           # console version <br>
 │── app.py                  # Flask backend<br>
 │── templates/    <br>
