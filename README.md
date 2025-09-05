@@ -34,8 +34,14 @@ Final_Project/
 │── feedback.txt            # User feedback log
 
 output:
-<img width="987" height="944" alt="image" src="https://github.com/user-attachments/assets/3f25e992-402b-44d7-b246-05524d785f4c" />
-<img width="894" height="370" alt="image" src="https://github.com/user-attachments/assets/e303eead-f506-4766-b222-a3e1098a4314" />
-<img width="890" height="241" alt="image" src="https://github.com/user-attachments/assets/3873d84e-05c6-4343-b080-d6806747af33" />
 
+<p align="center">
+  <im alt="image" src="https://github.com/user-attachments/assets/3f25e992-402b-44d7-b246-05524d785f4c" width="60%" height="60%">
+
+    
+  <img alt="image" src="https://github.com/user-attachments/assets/e303eead-f506-4766-b222-a3e1098a4314" width="60%" height="60%">
+
+  
+  <img alt="image" src="https://github.com/user-attachments/assets/3873d84e-05c6-4343-b080-d6806747af33" width="60%" height="60%">
+</p>
 
