@@ -1,1 +1,47 @@
+🤖 AI Assistant – VOC
+
+An interactive AI Assistant built with Flask and Prompt Engineering during my Vault of Codes Internship.
+This assistant can answer questions, summarize text, generate creative stories, and give advice – all through a modern web app ✨.
+
+📌 Features
+
+Q&A – Get factual answers from Wikipedia
+Summarizer – Short, medium, or detailed text summaries
+Creative Writing – Generate short stories & narratives
+Advice Mode – Tips, bullet points, or step-by-step plans
+Feedback Loop – Save user feedback into feedback.txt
+Modern UI/UX – Particle.js background + glassmorphism cards
+
+🛠️ Tech Stack
+
+Backend: Python, Flask
+Frontend: HTML, CSS, Particles.js
+Libraries: flask, jinja2, wikipedia
+Storage: feedback.txt for user responses
+Prompt Sets: commands.md with predefined prompt variations
+
+📂 Project Structure
+
+Final_Project/ <br>
+|── ai_assistance           # console version <br>
+│── app.py                  # Flask backend<br>
+│── templates/    <br>
+│    └── index.html         # Web UI<br>
+│── static/  <br>
+│    ├── style.css          # Styling<br>
+│    └── particles.js       # Background animation<br>
+│── commands.md             # Prompt sets (3 variations each)<br>
+│── feedback.txt            # User feedback log<br>
+
+output:
+
+<p align="center">
+  <img alt="image" src="https://github.com/user-attachments/assets/3f25e992-402b-44d7-b246-05524d785f4c" width="60%" height="60%">
+
+    
+  <img alt="image" src="https://github.com/user-attachments/assets/e303eead-f506-4766-b222-a3e1098a4314" width="60%" height="60%">
+
+  
+  <img alt="image" src="https://github.com/user-attachments/assets/3873d84e-05c6-4343-b080-d6806747af33" width="60%" height="60%">
+</p>
 
