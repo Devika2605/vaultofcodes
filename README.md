@@ -23,20 +23,20 @@ Prompt Sets: commands.md with predefined prompt variations
 📂 Project Structure
 
 Final_Project/
-|── ai_assistance           # console version
-│── app.py                  # Flask backend
-│── templates/
-│    └── index.html         # Web UI
-│── static/
-│    ├── style.css          # Styling
-│    └── particles.js       # Background animation
-│── commands.md             # Prompt sets (3 variations each)
-│── feedback.txt            # User feedback log
+|── ai_assistance           # console version <br>
+│── app.py                  # Flask backend<br>
+│── templates/    <br>
+│    └── index.html         # Web UI<br>
+│── static/  <br>
+│    ├── style.css          # Styling<br>
+│    └── particles.js       # Background animation<br>
+│── commands.md             # Prompt sets (3 variations each)<br>
+│── feedback.txt            # User feedback log<br>
 
 output:
 
 <p align="center">
-  <im alt="image" src="https://github.com/user-attachments/assets/3f25e992-402b-44d7-b246-05524d785f4c" width="60%" height="60%">
+  <img alt="image" src="https://github.com/user-attachments/assets/3f25e992-402b-44d7-b246-05524d785f4c" width="60%" height="60%">
 
     
   <img alt="image" src="https://github.com/user-attachments/assets/e303eead-f506-4766-b222-a3e1098a4314" width="60%" height="60%">
